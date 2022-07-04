@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(
+          child: Row(
             // mainAxisSize: MainAxisSize.min,
             // mainAxisSize: MainAxisSize.max,
             // verticalDirection: VerticalDirection.up,
@@ -33,7 +33,8 @@ class MyApp extends StatelessWidget {
                 // width: 100.0,
               ),
               SizedBox(
-                height: 20.0,
+                // height: 20.0,
+                width: 20.0,
               ),
               Container(
                 color: Colors.blue,
